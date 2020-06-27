@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-let name = "Kai";
+let name = "You";
 
 ReactDOM.render(
   <React.StrictMode>
