@@ -4,6 +4,7 @@ import './App.css';
 import Clock from './Clock.js';
 import MyComponent from './MyComponent';
 import ColoredBlock from './ColoredBlock.js';
+import Products from './Products.js';
 
 
 // equiv to `React.Component` if not having destructuring it in line 1
@@ -20,6 +21,7 @@ class App extends Component {
         <MyComponent />
         <div className="main-content">
          <ColoredBlock />
+         <Products />
        </div>
        <footer>...</footer>
       </div>
